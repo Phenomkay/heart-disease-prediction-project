@@ -1,31 +1,32 @@
-**Heart Disease Prediction**
+# Heart Disease Prediction Web Application
 
-This project is a web application for predicting the likelihood of heart disease based on user input. Built using Python, Streamlit, and Scikit-learn, it leverages machine learning to provide real-time predictions based on key health metrics.
+## Overview
+This web application predicts the likelihood of heart disease based on user inputs. It uses a trained `RandomForestClassifier` to provide real-time predictions with a user-friendly interface. The application is built with Python, Streamlit, and Scikit-learn.
 
-**Features**
-User-Friendly Interface: The app provides an easy-to-use form for inputting health data such as age, cholesterol levels, and exercise-induced angina.
-Machine Learning Model: A trained RandomForestClassifier is used for making predictions, ensuring accurate and reliable results.
-Real-Time Predictions: Users receive instant feedback on their heart disease risk upon submitting the form.
-Data Preprocessing: Includes encoding of categorical variables and scaling of numerical features to optimize model performance.
+## Features
+- **User-Friendly Interface:** An intuitive form for entering health data such as age, cholesterol levels, and exercise-induced angina.
+- **Machine Learning Model:** A pre-trained `RandomForestClassifier` ensures accurate and reliable predictions.
+- **Real-Time Predictions:** Instant feedback on heart disease risk is provided upon form submission.
+- **Data Preprocessing:** Includes categorical variable encoding and numerical feature scaling to optimize model performance.
 
-**How It Works**
-Input Data: Users enter their health information (e.g., age, sex, cholesterol levels) via the web interface.
-Data Processing: The input data is encoded and scaled using pre-trained encoders and a scaler.
-Prediction: The processed data is fed into a pre-trained machine learning model to predict the likelihood of heart disease.
-Output: The app displays whether the user is at risk for heart disease or not.
+## How It Works
+1. **Input Data:** Users input their health information via the web interface.
+2. **Data Processing:** The input data is encoded and scaled using pre-trained encoders and a scaler.
+3. **Prediction:** The processed data is fed into a pre-trained machine learning model to predict heart disease likelihood.
+4. **Output:** The app displays whether the user is at risk for heart disease or not.
 
-**Technologies Used**
-Python
-Streamlit
-Scikit-learn
-Pandas
-Joblib
+## Technologies Used
+- **Python**
+- **Streamlit**
+- **Scikit-learn**
+- **Pandas**
+- **Joblib**
 
-**Project Structure**
-deploy.py: Main application script.
-model.pkl: Trained machine learning model.
-encoder.pkl: Encoders for categorical variables.
-requirements.txt: List of Python dependencies.
-
-**Contributing**
-Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
+## Project Structure
+```bash
+.
+├── deploy.py                # Main application script
+├── model.pkl                # Trained machine learning model
+├── encoder.pkl              # Encoders for categorical variables
+├── requirements.txt         # List of Python dependencies
+└── README.md                # Project documentation
