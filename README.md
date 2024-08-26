@@ -1,5 +1,8 @@
 # Heart Disease Prediction Web Application
 
+## Objective
+The primary objective of this project is to develop a web application that accurately predicts the likelihood of heart disease based on user-provided health metrics. This tool aims to raise awareness and assist users in understanding their heart health risks, enabling them to take proactive measures.
+
 ## Overview
 This web application predicts the likelihood of heart disease based on user inputs. It uses a trained `RandomForestClassifier` to provide real-time predictions with a user-friendly interface. The application is built with Python, Streamlit, and Scikit-learn.
 
